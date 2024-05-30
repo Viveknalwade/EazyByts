@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Users - Fitness & Wellness</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.1.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <script src="https://kit.fontawesome.com/3cc6497b67.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="FitPhysique/styles.css" />
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- <header>
+         <h1>Fitness & Wellness</h1>
+         <nav>
+             <ul>
+                 <li><a href="index.html">Home</a></li>
+                 <li><a href="user.html">Users</a></li>
+                 <li><a href="workout.html">Workouts</a></li>
+                 <li><a href="diet.html">Diets</a></li>
+                 <li><a href="progress.html">Progress</a></li>
+             </ul>
+         </nav>
+     </header>-->
+     <nav>
+         <div class="nav__bar">
+           <div class="nav__header">
+             <div class="nav__logo">
+               <a href="#"><img src="FitPhysique/assets/logo.png" alt="logo" /></a>
+             </div>
+             <div class="nav__menu__btn" id="menu-btn">
+               <i class="ri-menu-line"></i>
+             </div>
+           </div>
+           <ul class="nav__links" id="nav-links">
+             <li><a href="FitPhysique/index.html">HOME</a></li>
+            <!--<li><a href="user.html">Users</a></li>
+             <li><a href="index.html">TRAINER</a></li>
+             <!--<li><a href="user.html">CLIENT</a></li>
+             <li><a href="./FitPhysique/index.html">BLOG</a></li>-->
+             <li><a href="#contact">CONTACT US</a></li>
+           </ul>
+         </div>
+       </nav>
+       <body>
+        <div class="container">
+            <div class="form-box">
+                <h1 id="title">Sign Up</h1>
+                <form action="/users" method="get">
+                    <div class="input-group">
+                        <div class="input-field" id="nameField">
+                            <i class="fa-solid fa-user"></i>
+                            <input type="text" placeholder="Name">
+                        </div>
+    
+                        <div class="input-field">
+                            <i class="fa-solid fa-envelope"></i>
+                            <input type="email" placeholder="Email">
+                        </div>
+    
+                        <div class="input-field">
+                            <i class="fa-solid fa-lock"></i>
+                            <input type="password" placeholder="Password">
+                        </div>
+                        <p>Already have Account !  &nbsp;&nbsp;<a href="user.html">Sign In Here</a></p>
+                    </div>
+                    <div class="btn-fields">
+                        <button type="submit" id="signUp" >Register</button> 
+                    </div>
+                    
+                </form>
+            </div>
+        </div>
+       
+    <footer class="footer" id="contact">
+        <div class="section__container footer__container">
+          <div class="footer__col">
+            <div class="footer__logo">
+              <a href="#"><img src="./FitPhysique/assets/logo.png" alt="logo" /></a>
+            </div>
+            <p>
+              Welcome to FitPhysique, where we believe that every journey to
+              fitness is unique and empowering.
+            </p>
+            <ul class="footer__links">
+              <li>
+                <a href="#">
+                  <span><i class="ri-map-pin-2-fill"></i></span>
+                  123 Main Street<br />Sunrise Valley, Evergreen Heights
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <span><i class="ri-phone-fill"></i></span>
+                  +91 9876543210
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <span><i class="ri-mail-fill"></i></span>
+                  info@fitphysique.com
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="footer__col">
+            <h4>GALLERY</h4>
+            <div class="gallery__grid">
+              <img src="FitPhysique/assets/gallery-1.jpg" alt="gallery" />
+              <img src="FitPhysique/assets/gallery-2.jpg" alt="gallery" />
+              <img src="FitPhysique/assets/gallery-3.jpg" alt="gallery" />
+              <img src="FitPhysique/assets/gallery-4.jpg" alt="gallery" />
+              <img src="FitPhysique/assets/gallery-5.jpg" alt="gallery" />
+              <img src="FitPhysique/assets/gallery-6.jpg" alt="gallery" />
+              <img src="FitPhysique/assets/gallery-7.jpg" alt="gallery" />
+              <img src="FitPhysique/assets/gallery-8.jpg" alt="gallery" />
+              <img src="FitPhysique/assets/gallery-9.jpg" alt="gallery" />
+            </div>
+          </div>
+          <div class="footer__col">
+            <h4>NEWSLETTER</h4>
+            <p>
+              Don't miss out on the latest news and offers - sign up today and
+              join our thriving fitness community!
+            </p>
+            <form action="/">
+              <input type="text" placeholder="Enter Email" />
+              <button class="btn btn__primary">SEND</button>
+            </form>
+            <div class="footer__socials">
+              <a href="#"><i class="ri-facebook-fill"></i></a>
+              <a href="#"><i class="ri-twitter-fill"></i></a>
+              <a href="#"><i class="ri-youtube-fill"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="footer__bar">
+          Copyright © 2024 Web Design Mastery. All rights reserved.
+        </div>
+      </footer>
+      <script src="js/api.js"></script>
+      <script src="js/users.js"></script>
+      <script src="FitPhysique/main.js"></script>
+      <script>
+          document.addEventListener('DOMContentLoaded', showUsers);
+      </script>
+  </body>
+  </html>
+  

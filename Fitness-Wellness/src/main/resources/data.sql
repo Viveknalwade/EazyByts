@@ -1,0 +1,3 @@
+--INSERT INTO user (username, password) VALUES ('user1', 'password1');
+--INSERT INTO workout (description, duration) VALUES ('Running', 30);
+--INSERT INTO diet (meal, calories) VALUES ('Breakfast', 500);
