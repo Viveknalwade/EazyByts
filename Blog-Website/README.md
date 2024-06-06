@@ -1,2 +1,2 @@
-#Blog Website - The KPOP Chronicles
+**Blog Website - The KPOP Chronicles**
 
