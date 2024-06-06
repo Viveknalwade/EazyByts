@@ -1,0 +1,113 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    /*background-image: linear-gradient(rgba(0,0,50,0.8), url('kpop.jpg'));*/
+    background-image: url("kimg.jpg");
+    background-color: rgba(0%, 0%, 50%, 0.2);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.form-box{
+    width: 90%;
+    max-width: 450px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    /*background: #fff;*/
+    background-color: rgba(255, 255, 255, 0.3);
+    padding: 50px 60px 70px;
+    text-align: center;
+    border-radius: 5px;
+    
+}
+.form-box h1{
+    font-size: 30px;
+    margin-bottom: 40px;
+    color: #f26262;
+    /*color: #ffffff;*/
+}
+.input-field{
+    background: #ffffff;
+    margin: 15px 0;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    max-height: 40px;
+    transition: max-height 0.5s;
+    overflow: hidden;
+}
+input{
+    width: 100%;
+    background: transparent;
+    border: 0;
+    outline: 0;
+    padding: 18px;
+}
+.input-field i{
+    margin-left: 15px;
+    color: #f26262;
+}
+form p{
+    text-align: left;
+    font-size: 15px;
+}
+form p a{
+    text-decoration: none;
+    color: #c82a2a;
+}
+
+.btn-field{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+}
+.btn-field button {
+    flex-basis: 100%;
+    background: #f35e5e;
+    color: #fff;
+    height: 35px;
+    border-radius: 10px;
+    border: 0;
+    cursor: pointer;
+    align-items: center;
+   /* transition: background 1s;*/
+}
+.btn-fields{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.btn-fields button {
+    flex-basis: 100%;
+    background: #f35e5e;
+    color: #fff;
+    height: 35px;
+    border-radius: 10px;
+    border: 0;
+    cursor: pointer;
+    align-items: center;
+    /*transition: background 1s;*/
+    
+}
+.input-group{
+    height: 210px;
+}
+/*
+.btn-field button.disable{
+    background: #ffffff;
+    color: #555;
+
+}*/
+
