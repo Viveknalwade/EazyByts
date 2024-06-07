@@ -1,4 +1,5 @@
-# EazyByts
-Blog website
-Car-Rental
-Fitness-Wellness-Applicqation
+# EazyByts Infotech
+### Full Stack Java Development Projects
+- Blog website
+- Car-Rental
+- Fitness-Wellness-Applicqation
