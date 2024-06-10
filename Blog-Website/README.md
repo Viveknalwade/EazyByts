@@ -24,6 +24,7 @@
 1. Setup & Configure Database Connection:
       - Install MySQL and create a database named `blog_db`.
       - Update the `db.properties` file with your MySQL database credentials(url,username,password).
+      - Kindly change the path of image and file location as  i have rearranged the image and file in a separate folder , so kindly update the path.
 2. Build and Deploy:
       - Open the project in your IDE.
       - Build the project and deploy it to your Apache Tomcat server.
